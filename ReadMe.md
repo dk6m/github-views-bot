@@ -1,4 +1,4 @@
-# Profile views
+# Github Profile views
 
 With this tool, you can send github views to your profile.
 
