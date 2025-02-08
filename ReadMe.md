@@ -3,7 +3,7 @@
 With this tool, you can send github views to your profile.
 
 # How Does it Work?
-Opens as many browsers as you want, goes to github where you type in the terminal and refreshes it to get views.
+Opens many browsers as you want, goes to github where you type in the terminal and refreshes it to get views.
 
 ## Requirements
 - Python 3.x
