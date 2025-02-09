@@ -1,20 +1,40 @@
-# Github Profile views
 
-With this tool, you can send github views to your profile.
+# GitHub Profile Views
 
-# How Does it Work?
-Opens many browsers as much as you want, goes to github where you type in the terminal and refreshes it to get views.
+This script gets you github profile views by refreshing the page every second.
 
 ## Requirements
 - Python 3.x
-- `selenium` library (Install it using `pip install selenium`)
--  `colorama` library (Install it using `pip install colorama`)
--  `webdriver_manager` library (Install it using `webdriver_manager`)
+- `selenium` library (install with `pip install selenium`)
+- `colorama` library (install with `pip install colorama`)
+- `webdriver-manager` library (install with `pip install webdriver-manager`)
+- Google Chrome browser
 
-## Credits
+## Installation & Setup
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/dk6m/github-views-bot.git
+   cd github-views-bot
+   ```
+2. Install dependencies:
+   ```sh
+   pip install selenium colorama webdriver-manager
+   ```
+3. Run the script:
+   ```sh
+   python main.py
+   ```
+4. Enter a GitHub username when prompted.
 
-<h2 align="center"> @ github: dk6m </h2>
-<h2 align="center"> @ discord: ch8n </h2>
+## How It Works
+- The script prompts the user for a GitHub username.
+- It opens multiple browser windows and navigates to the given GitHub profile.
+- The profile page is refreshed repeatedly every second.
+- The script stops when interrupted by the user.
 
-## Discord 
-[![Discord Presence](https://lanyard.cnrad.dev/api/246383236744347648)](https://discord.com/users/246383236744347648)
+## Notes
+- The number of browser instances can be adjusted by modifying the `num_browsers` variable.
+- Ensure that Google Chrome and ChromeDriver are installed.
+
+GitHub: [dk6m](https://github.com/dk6m)
+
